@@ -1,0 +1,94 @@
+.page-contact{
+    .section{
+        &-subscribe{
+            padding: 159px 0 70px;
+        }
+        &__title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin:0 auto;
+        }
+        &__table{
+            max-width: 100%;
+            margin:0 auto;
+            table{
+                width: 100%;
+                margin-top: 74px;
+                tr{
+                    border-bottom: 1px solid #cccccc;
+                    td{
+                        padding:15px 0;
+                        &:nth-child(2){
+                            text-align:right;
+                        }
+                    }
+                }
+            }
+        }
+
+        .subscribe-form{
+            background-color: #f2f2f2;
+            padding: 75px 63px;
+            margin: 0 -63px;
+            form{
+                border-bottom: 1px solid #cccccc;
+            }
+            input{
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: -0.03px;
+                padding: 15px 0;
+                line-height: 24px;
+                &#email{
+                    color: #7f8f97;
+                    width:calc(100% - 150px);
+                    float:left;
+                }
+                &#submit{
+                    float:right;
+                    width: 150px;
+                    text-align: center;
+                    color: #253746;
+                }
+            }
+        }
+    }
+    .section.section-map{
+        .address{
+            &__title{
+                color: #000000;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 14px;
+                text-transform: uppercase;
+                letter-spacing: 3.2px;
+            }
+            &__address{
+                color: #ed5045;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 3.2px;
+            }
+        }
+        .map{
+            width: 100%;
+            height:500px;
+            margin-top: 55px;
+            filter: grayscale(100%);
+        }
+        .follow{
+            padding: 81px 0;
+            &__title{
+                color: #253746;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 3.2px;
+                text-transform:uppercase;
+            }
+        }
+    }
+}

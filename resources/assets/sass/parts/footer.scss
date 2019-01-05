@@ -1,0 +1,35 @@
+.main-footer{
+    padding:295px 167px 55px;
+    background-color: #f1f1f1;
+    color: #686868;
+    position:relative;
+    z-index:10;
+    &__title{
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 10px;
+        margin-bottom: 97px;
+    }
+    &__link{
+        a{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 10px;
+            letter-spacing: 3.6px;
+            text-transform: uppercase;
+            text-decoration:underline;
+            color: #686868;
+        }
+    }
+    &__copyrights{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 9.76px;
+        letter-spacing: 3.2px;
+        margin-top: 200px;
+        .small{
+            font-size: 12px;
+        }
+    }
+}

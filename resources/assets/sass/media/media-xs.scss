@@ -1,0 +1,371 @@
+
+.menu-content {
+    width: 200px;
+    font-size: 18px;
+}
+
+.menu-content ul {
+    margin-top: 70px;
+    li{
+        margin-bottom: 5px;
+    }
+}
+
+.hot-news {
+    float: none;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.page-home .section-intro {
+    padding: 0 0 0;
+}
+
+.page-home .imposition {
+    transform: translateX(0);
+}
+
+.page-home .section-intro a{
+    display:block;
+}
+
+.page-home .section-intro .block-large {
+    width: 290px;
+    height: 290px;
+    margin: 0 auto !important;
+    float: none;
+}
+
+
+
+.page-home .svg #block-bg1-clip .text1 {
+    transform: translateY(-40px) translateX(60px);
+}
+
+.page-home .svg #block-bg1-clip .text2 {
+    transform: translateY(-170px) translateX(66px);
+}
+
+.page-home .svg #block-bg2-clip .text1 {
+    transform: translateX(-42px) translateY(-20px);
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.page-home .svg #block-bg2-clip .text2 {
+    transform: translateX(-42px) translateY(-98px);
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.page-home .svg #block-bg3-clip .text1 {
+    transform: translateX(-50px)translateY(-58px);
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.page-home .section-intro .cols-mobile{
+    width: 290px;
+    margin:0 auto 30px;
+    .block{
+        float:left;
+    }
+}
+
+.page-home .section-intro .block.project {
+    margin-top: 0;
+}
+
+.page-home .section-intro .block.cont .block__mask img {
+    margin-left: -100px;
+    width: 300px;
+}
+
+.page-home .section-intro .block-small {
+    width: 145px;
+    height: 145px;
+}
+
+.page-home .section-intro .block__title{
+    right:0 !important;
+    left:0 !important;
+}
+
+.page-home .section-intro .block__title p {
+    text-align:left;
+    margin: 0;
+    padding:0 15px;
+}
+
+.page-home .section-intro .block{
+    padding: 1px;
+}
+
+.page-home .section-intro .block.cont .block__title {
+    bottom: 8px;
+}
+
+.page-home .section-intro .block.smartlab .block__image {
+    margin-top: 59px;
+    margin-left: 20px;
+    img {
+        width: 250px;
+    }
+}
+
+.page-home .section-intro .block.project .block__image {
+    margin-left: 9px;
+    img {
+        width: 130px;
+    }
+}
+
+.page-home .section-intro .block.cont .block__image {
+    margin-top: 34px;
+    margin-left: 5px;
+    img {
+        width: 130px;
+    }
+}
+
+
+
+
+
+.page-about .section-intro .right{
+    padding-right: 15px;
+    width: 100%;
+    float:none;
+}
+
+.page-about .left{
+    float:none;
+    width: 100%;
+}
+
+.page-about .section-intro .center-text {
+    left:-20px;
+    span{
+        font-size: 100px;
+    }
+}
+
+.page-about .right {
+    width: 100%;
+}
+
+.page-about .section-about .text-block3 {
+    padding: 30px 50px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.page-about .section-partners .section__blocks .partner {
+    width: 140px;
+}
+
+.page-about .section-about-bg img {
+    width: 198%;
+    margin-left: -50%;
+    margin-top: -7%;
+}
+
+.page-about .section-about-bg {
+    height: 224px;
+}
+
+.page-about .section-additions {
+    padding: 50px 0 50px;
+}
+
+.page-about .section-additions .block .more {
+    margin-top: 0;
+}
+
+
+
+.page-project .side-tools .back a i{
+    display:none;
+}
+
+.page-project .side-tools {
+    padding-top: 0px;
+    width: 35px;
+}
+
+.page-project .side-tools .back a span {
+    right: 25px;
+}
+
+.page-project .side-tools__title p {
+    right: 25px;
+}
+
+.page-project .left{
+    padding-left: 45px;
+    float:none;
+    width: 100%;
+    position:relative;
+}
+
+.page-project .right {
+    width: 100%;
+    float:none;
+    position:relative;
+}
+
+.page-project .page__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.page-project .project {
+    margin-left: 0;
+    padding-bottom: 63px;
+    &__title{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.03px;
+
+    }
+}
+
+.page-project .project__description p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.page-project .project__title {
+    margin-bottom: 20px;
+}
+
+.page-project .project__docs {
+    margin-top: 81px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.page-project .project__links {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.page-project .project__additions {
+    padding: 30px 60px;
+    padding-right: 15px;
+}
+
+.page-project .project__additions ul li {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+
+
+.page-news .news{
+    margin:0 15px;
+}
+
+.page-news .news .new{
+    padding: 30px 30px 100px;
+    display:block;
+    margin:0 auto 30px;
+    width: auto;
+    height:auto;
+}
+
+.page-news .news .new p{
+    color: #2a3235;
+}
+
+.page-news .news .new__arrow i img{
+    left: -60px;
+}
+
+.page-news .news .news-inner .new-inner__title{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 60px 0 0px;
+}
+
+.page-news .news .news-inner .new-inner__date{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.page-news .news .news-inner .new-inner__description{
+    margin-top: 30px;
+}
+
+.page-news .news .news-inner__links .button-arrowed {
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    float:left !important;
+}
+
+.page-news .news .news-inner__links{
+    .button-3d-black{
+        margin-bottom: 30px;
+    }
+}
+
+
+.page-contact .section__table {
+    table{
+        tr{
+            display:block;
+            padding:15px 0;
+        }
+        td{
+            display:block;
+            text-align:center !important;
+            padding: 0 !important;
+            font-size:18px;
+            &:first-child{
+                font-weight:bold;
+            }
+        }
+    }
+}
+
+
+
+
+
+.main-footer {
+    padding: 30px 15px 30px;
+}
+
+.main-footer__title {
+    font-size: 34px;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+
+
+.page-projects .project {
+    height: 180px;
+    width: 290px;
+    margin: 0 auto 20px;
+}
+
+
+
+.main-footer__copyrights {
+    margin-top: 110px;
+    line-height: 23.76px;
+    letter-spacing: 1px;
+}
+

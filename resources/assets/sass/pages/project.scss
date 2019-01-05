@@ -1,0 +1,165 @@
+.page-project{
+    border-top:2px solid  #e6e6e6;
+    position: relative;
+    .side-tools{
+        position:Absolute;
+        z-index: 10;
+        left:0;
+        border-right:2px solid #e6e6e6;
+        width: 167px;
+        top:0;
+        bottom: 0;
+        .back{
+            a{
+                display:block;
+                background-color: #4f81bd;
+                color:#fff;
+                padding: 45px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 14px;
+                letter-spacing: -0.03px;
+                position:relative;
+                span{
+                    display:inline-block;
+                    width: 0;
+                    height: 0;
+                    right:30px;
+                    bottom:25px;
+                    position:Absolute;
+
+                    transform:rotate(-90deg);
+                    -webkit-transform:rotate(-90deg);
+                }
+                i{
+                    transition: margin-left .5s;
+                }
+                &:hover{
+                    i{
+                        margin-left:-15px;
+                    }
+                }
+            }
+        }
+
+        &__title{
+            position:relative;
+            height: 250px;
+            p{
+                color: #5d5d5d;
+                white-space: nowrap;
+                font-size: 14px;
+                font-weight: 700;
+                right:30px;
+                line-height: 14px;
+                letter-spacing: -0.03px;
+                width: 0;
+                height: 0;
+                bottom:0;
+                position:absolute;
+                transform:rotate(-90deg);
+                -webkit-transform:rotate(-90deg);
+            }
+            &.next-project{
+                position: absolute;
+                bottom: 50px;
+                width: 100%;
+            }
+        }
+    }
+
+    .left,.right{
+        width: 50%;
+        height:inherit;
+        float:right;
+    }
+
+    .left{
+        padding-left:240px;
+        position:absolute;
+        left:0;
+        top:0;
+        bottom:0;
+    }
+
+    .page{
+        &__title{
+            margin-top: 250px;
+            color: #00192b;
+            font-size: 60px;
+            font-weight: 700;
+            margin-bottom: 130px;
+        }
+    }
+
+    .project{
+        margin-left: 105px;
+        margin-right: 60px;
+        color: #5f7079;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: -0.04px;
+        padding-bottom: 310px;
+        padding-right: 15px;
+        &__title{
+            font-weight: 700;
+            margin-bottom: 69px;
+        }
+        &__description{
+            p{
+                margin-bottom: 40px;
+            }
+        }
+        &__docs{
+            margin-top: 117px;
+        }
+        &__links{
+            margin-top: 140px;
+            a{
+                color: #ed5045;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 1.6px;
+                text-decoration:underline;
+                text-transform:uppercase;
+                &:hover{
+                    color: #ed5045;
+                }
+            }
+        }
+        &__next{
+            overflow:hidden;
+            position:absolute;
+            bottom:0;
+            left:167px;
+            width: calc(100% - 167px);
+            img{
+                width: 100%;
+            }
+        }
+        &__previews{
+            .preview{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        &__additions{
+            background-image: url(/images/about-bg2.png);
+            background-size: 100% 110%;
+            padding: 270px 124px;
+            ul{
+                li{
+                    color: #565656;
+                    font-size: 22px;
+                    font-weight: 300;
+                    line-height: 34px;
+                    margin-bottom: 30px;
+                    text-transform:uppercase;
+                }
+            }
+        }
+    }
+}

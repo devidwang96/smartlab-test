@@ -1,0 +1,129 @@
+.overlay-content{
+    z-index:-1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:fixed;
+    background-color: #066594;
+    transition: all .5s;
+    cursor:pointer;
+
+    opacity:0;
+    &.active{
+        opacity: 0.3;
+        z-index:60;
+    }
+}
+
+.main-header{
+    position:relative;
+    z-index: 80;
+    .logo{
+        padding: 40px 43px;
+        height: 150px;
+        display:inline-block;
+    }
+}
+
+.main-header.default{
+    position:fixed;
+    top:0;
+    height: 0;
+    z-index: 60;
+    left:0;
+    width: 100%;
+
+    .logo{
+        padding: 0;
+        float:left;
+        margin-top: 92px;
+        margin-left: 79px;
+    }
+}
+
+
+.menu-switcher{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:80;
+    i{
+        display:inline-block;
+    }
+    button{
+        box-shadow: none;
+        display:block;
+        border:none;
+        height: 40px;
+        width: 50px;
+        padding: 0 4px;
+        background-color: transparent;
+        transition: all .5s;
+        margin-top: 92px;
+        margin-right: 79px;
+
+        span{
+            display:block;
+            background-color: #009ce8;
+            float:left;
+            width:42px;
+            height: 6px;
+            margin-bottom: 7px;
+            transition: transform .5s, opacity .5s;
+            opacity:1;
+        }
+    }
+    &.open{
+        button{
+            margin-top: 31px;
+            margin-right: 24px;
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            span{
+                &:nth-child(1){
+                    transform: rotate(45deg) translateX(10px) translateY(10px);
+                    -webkit-transform: rotate(45deg) translateX(10px) translateY(10px);
+                }
+                &:nth-child(2){
+                    transform :rotate(-45deg) translateX(-1px) translateY(0px);
+                    -webkit-transform:rotate(-45deg) translateX(-1px) translateY(0px);
+                }
+                &:nth-child(3){
+                    transform:translateY(30px) ;
+                    opacity:0;
+                }
+            }
+        }
+    }
+}
+
+.menu-content{
+    text-align:right;
+    width: 481px;
+    z-index:70;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:-481px;
+    background-color: #fff;
+    transition: right .5s;
+
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    ul{
+        margin-top: 203px;
+        margin-right: 63px;
+        li{
+            margin-bottom: 101px;
+            a{
+                color: #7f8f97;
+            }
+        }
+    }
+    &.open{
+        right:0;
+    }
+}

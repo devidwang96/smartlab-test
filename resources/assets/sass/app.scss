@@ -1,0 +1,56 @@
+
+// Fonts
+@import "fonts.css";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import 'animate';
+@import 'parts/header';
+@import 'parts/footer';
+
+@import 'standard.scss';
+@import 'pages/home';
+@import 'pages/vacancy';
+@import 'pages/about';
+@import 'pages/contact';
+@import 'pages/news';
+@import 'pages/projects';
+@import 'pages/project';
+
+//media
+
+@media (max-width: 1900px) {
+    .page-projects .page__container {
+        max-width: 1200px;
+    }
+
+    .page-projects .projects {
+        height: 540px;
+    }
+
+    .page-projects .project {
+        height: 240px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    @import "media/media-lg";
+}
+
+@media screen and (max-width: 1199px) {
+    @import "media/media-md";
+}
+
+@media screen and (max-width: 991px) {
+    @import "media/media-sm";
+}
+
+@media screen and (max-width: 767px) {
+    @import "media/media-xs";
+}
+

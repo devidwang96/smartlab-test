@@ -1,0 +1,253 @@
+
+.main-header,
+.main-header.default {
+    height: 70px;
+    position:fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.main-header .logo,
+.main-header.default .logo{
+    margin-top: 11px;
+    margin-left: 20px;
+    padding:0;
+}
+.main-header .logo img,
+.main-header.default .logo img{
+    width: 47px;
+    height: 40px;
+}
+
+.main-content{
+    padding-top: 70px;
+}
+
+
+.menu-switcher button{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0 13px;
+}
+
+.menu-switcher button span {
+    width: 25px;
+    height: 3px;
+    margin-bottom: 4px;
+}
+
+.menu-switcher.open button{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.menu-switcher.open button span:nth-child(1) {
+    transform: rotate(45deg) translateX(5px) translateY(6px);
+    -webkit-transform: rotate(45deg) translateX(5px) translateY(6px);
+}
+
+.menu-content{
+    font-size: 24px;
+    width: 300px;
+}
+
+.menu-content ul {
+    margin-top: 90px;
+}
+
+.menu-content ul li {
+    margin-bottom: 30px;
+}
+
+.lang-switcher{
+    right: 0px;
+    bottom: 0;
+    top: 0;
+    height: 26px;
+    margin: auto;
+    p{
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+}
+
+
+.hot-news{
+    position:static;
+    float:right;
+    margin-top: 20px;
+}
+
+.page-home .section-intro {
+    padding: 65px 0 0;
+}
+
+.page-home .section-intro .block.smartlab {
+    margin-right: 0;
+}
+
+.page-home .imposition {
+    transform: translateX(-80px);
+}
+
+
+
+.page-contact .section-subscribe {
+    padding: 85px 0 50px;
+}
+
+.page-contact .section.section-map .map {
+    width: 100%;
+}
+
+.page-contact .section.section-map .address {
+    margin-left: 0;
+}
+
+
+
+.page-about .section-intro .right {
+    padding: 20px 15px;
+    padding-right: 65px;
+}
+
+.page-about .left{
+    width: 45%;
+}
+
+.page-about .right{
+    width: 55%;
+}
+
+.page-about .page__title {
+    margin-bottom: 20px;
+}
+
+.page-about .section-intro .center-text {
+    top: 209px;
+    left: -77px;
+    bottom:auto;
+}
+
+.page-about .section-about {
+    padding: 60px 0;
+}
+
+.page-about .section-about .text-block3 {
+    padding: 30px 60px;
+    width: 84%;
+}
+
+.page-about .section-about .text-block3 ul {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page-about .section-about .text-block3 ul li:after {
+    top: 8px;
+}
+
+.page-about .section-about .text-block1 {
+    float:none;
+    max-width: none;
+    margin-right: 0px;
+}
+
+.page-about .section-about .text-block1__description {
+    margin-left: 0;
+}
+
+.page-about .section-about .text-block2 {
+    margin-left: 0;
+}
+
+.page-about .section-about-bg img {
+    margin-top: 160px;
+}
+
+.page-about .section-partners {
+    padding-bottom: 30px;
+}
+
+.page-about .section-additions .block {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+
+
+.page-news .news:before{
+    content: none;
+}
+
+.page-news .news {
+    padding: 30px 15px;
+    margin: 0px auto;
+}
+
+
+
+
+.page-project .side-tools {
+    padding-top: 80px;
+    width: 80px;
+}
+
+.page-project .side-tools .back a {
+    padding: 40px 10px;
+    font-size: 12px;
+    img{
+        transform:scale(0.7)
+    }
+}
+
+.page-project .project {
+    margin-left: 40px;
+}
+
+.page-project .project__next {
+    left: 80px;
+    width: calc(100% - 80px);
+}
+
+.page-project .project__additions {
+    padding: 40px 30px;
+}
+
+.page-project .project__additions ul li {
+    font-size: 16px;
+}
+
+.page-project .left {
+    padding-left: 100px;
+}
+
+.page-project .page__title {
+    margin-top: 85px;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.page-projects{
+    padding: 0 0;
+}
+
+.page-projects .projects {
+    height: auto;
+    overflow: visible;
+}
+
+.page-projects .project {
+    height: 260px;
+}
+
+
+
+
+
+.main-footer {
+    padding: 60px 60px 30px;
+}
+

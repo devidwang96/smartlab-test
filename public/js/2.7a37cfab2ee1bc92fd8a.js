@@ -1,0 +1,1 @@
+webpackJsonp([2],{iq97:function(e,n,r){var t=r("VU/8")(null,r("rp7g"),null,null);e.exports=t.exports},rp7g:function(e,n){e.exports={render:function(){var e=this,n=e.$createElement;e._self._c;return e._m(0)},staticRenderFns:[function(){var e=this,n=e.$createElement,r=e._self._c||n;return r("div",[r("h1",[e._v("Проекты")])])}]}}});

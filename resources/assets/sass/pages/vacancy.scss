@@ -1,0 +1,30 @@
+.page-vacancy{
+    background-color: #f7f7f7;
+    .page{
+        &__title{
+            margin-top: 138px;
+            margin-bottom: 46px;
+            font-weight: 300;
+            letter-spacing: -0.75px;
+            font-size: 30px;
+            color: #253746;
+            text-align:center;
+        }
+        &__description{
+            color: #5f7079;
+            font-family: Comfortaa;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: -0.35px;
+            line-height:18px;
+            text-align:center;
+            display:block;
+            max-width:745px;
+            margin: 0 auto;
+        }
+    }
+
+    .section-vacancies{
+        margin-top: 130px;
+    }
+}
